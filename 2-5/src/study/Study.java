@@ -37,8 +37,8 @@ public class Study {
 
         // ② 以下の「shopMap.put(shohinList.get(1), 180);」の処理について、コメントを記述してください。
         /*
-         * [shohinListという配列からインデックス番号１である牛乳という値を取得し、
-         * shopMapという連想配列へキーに上記で取得した牛乳という文字列、値に125という数字を登録している]
+         * [shohinListという配列からインデックス番号１であるSHOP_SHOHIN_01という定数に代入されている牛乳という文字列を取得し、
+         * shopMapという連想配列へキーに上記で取得した牛乳という文字列、値に180という数字を登録している]
          *
          */
         LinkedHashMap<String, Integer> shopMap = new LinkedHashMap<String, Integer>();
