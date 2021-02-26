@@ -1,0 +1,59 @@
+.clearfix::after {
+    content: '';
+    display: block; 
+    clear: both;
+}
+.header {
+    height: 100px;
+    width: 400px;
+    background-color: #141f40;
+}
+.main{
+    height: 650px;
+}
+.main__left {
+    height: 250px;
+    width: 150px;
+    background-color: #80bfa8;
+    float: left;
+}
+.main__right {
+    height: 250px;
+    width: 250px;
+    float: left;
+}
+.main__right__top {
+    height: 300px;
+    width: 250px;
+}
+.main__right__bottom {
+    height: 100px;
+    width: 250px;
+    background-color: #8c2727;
+}
+.main__right__top__left {
+    height: 150px;
+    width: 150px;
+    float: right;
+}
+.main__right__top__right {
+    height: 150px;
+    width: 100px;
+    background-color: #ff9e6b;
+    float: right;
+}
+.main__right__top__left__top {
+    height: 50px;
+    width: 150px;
+    background-color: #dbd400;
+}
+.main__right__top__left__bottom {
+    height: 100px;
+    width: 150px;
+    background-color: #0093b7;
+}
+.footer {
+    height: 100px;
+    width: 400px;
+    background-color: #d98d30;
+}
