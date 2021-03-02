@@ -29,41 +29,45 @@
     .footer {
         width: 300px;
     }
-}
-@media screen and (max-width: 479px) {
+  }
+  @media screen and (max-width: 479px) {
     .header{
-        width: 150px;
+      width: 150px;
+    }
+    .main {
+      height: 650px;
     }
     .main__left {
-        width: 150px;
-        float: none;
+      width: 150px;
+      float: none;
     }
     .main__right {
-        height: 400px;
-        width: 150px;
-        float: none;
+      height: 400px;
+      width: 150px;
+      float: none;
     }
     .main__right__top {
-        width: 150px;
+      width: 150px;
+      height: 300px;
     }
     .main__right__bottom {
-        width: 150px;
+      width: 150px;
     }
     .main__right__top__left {
-        width: 150px;
-        float: none;
+      width: 150px;
+      float: none;
     }
     .main__right__top__right {
-        width: 150px;
-        float: none;
+      width: 150px;
+      float: none;
     }
     .main__right__top__left__top {
-        width: 150px;
+      width: 150px;
     }
     .main__right__top__left__bottom {
-        width: 150px;
+      width: 150px;
     }
     .footer {
-        width: 150px;
+      width: 150px;
     }
-}
+  }
